@@ -12,7 +12,7 @@ interface PageData {
   title: string;
   likes: number;
   accounts: string[];
-  status: PageStatus;
+  status: "open" | "close";
   details?: PageDetails;
 }
 
